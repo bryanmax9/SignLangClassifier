@@ -42,6 +42,12 @@ In summary, this baseline model represents a fundamental approach to solving the
 
 ## Final Scratch Model (V2)
 
+The second iteration of our scratch-built model marked significant advancements in design, training efficiency, and scalability, guided by Professor Wenlu Zhang's recommendations. Transitioning to PyTorch enabled a more streamlined and modular development process. Key improvements included a robust training loop with real-time metrics computation, automated learning rate adjustments, and seamless GPU integration, which significantly reduced training times and facilitated iterative experimentation.
 
+To study the impact of dataset complexity, we employed a dynamic training pipeline with incremental class addition. Beginning with numeric digits (0-9) and gradually expanding to alphabetic characters (A-Z), the model maintained strong performance, achieving 95% accuracy on three classes and stabilizing around 90% as the class count exceeded 18. Data augmentation techniques such as random rotations, flips, and affine transformations improved dataset diversity, mitigating underfitting and enhancing generalization.
+
+Inspired by the VGGNet framework, the architecture incorporated three convolutional blocks with increasing filter sizes (32, 64, 128), max-pooling layers for down-sampling, and dropout regularization to prevent overfitting. This hierarchical design enabled the model to effectively capture complex patterns while maintaining computational efficiency. A refined dataset splitting strategy (70% training, 15% validation, 15% testing) and cross-validation further ensured robust performance evaluation.
+
+Visualization tools played a critical role in optimizing the model. Metrics like precision, recall, and confusion matrices highlighted areas for improvement, while training and validation loss plots guided architectural adjustments to balance bias and variance. The final model demonstrated strong generalization capabilities, closely aligning with industry standards and positioning it as a practical solution for real-world ASL classification tasks.
 
 
