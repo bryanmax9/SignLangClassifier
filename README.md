@@ -48,6 +48,13 @@ To study the impact of dataset complexity, we employed a dynamic training pipeli
 
 Inspired by the VGGNet framework, the architecture incorporated three convolutional blocks with increasing filter sizes (32, 64, 128), max-pooling layers for down-sampling, and dropout regularization to prevent overfitting. This hierarchical design enabled the model to effectively capture complex patterns while maintaining computational efficiency. A refined dataset splitting strategy (70% training, 15% validation, 15% testing) and cross-validation further ensured robust performance evaluation.
 
+![image](https://github.com/user-attachments/assets/a81e1ced-7b37-47a1-b001-e9e7a68fab44)
+
+![image](https://github.com/user-attachments/assets/6df9b540-8553-448a-b66b-9e20f939934e)
+
+
 Visualization tools played a critical role in optimizing the model. Metrics like precision, recall, and confusion matrices highlighted areas for improvement, while training and validation loss plots guided architectural adjustments to balance bias and variance. The final model demonstrated strong generalization capabilities, closely aligning with industry standards and positioning it as a practical solution for real-world ASL classification tasks.
+
+![image](https://github.com/user-attachments/assets/13de44e5-edac-4362-8f02-6f0f21a518f1)
 
 
