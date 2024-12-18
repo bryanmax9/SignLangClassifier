@@ -1,6 +1,21 @@
 
 # SignLangClassifier
 
+## Project Files Description
+
+In this project, we focus on developing ASL (American Sign Language) classification models. Please disregard all files except for the ones listed below:
+
+1. **ScratchASLClassificationModel.ipynb**
+   - **Description:** This notebook contains the code for building an ASL classification model from scratch, including data preprocessing, model design, training, and evaluation.
+
+2. **PreTrainedASLClassificationModel.ipynb**
+   - **Description:** This notebook uses a pre-trained model adapted through transfer learning to classify ASL signs. It includes the adaptation process, fine-tuning, and performance comparison.
+
+3. **FinalASL-ProjectReport.pdf**
+   - **Description:** This document contains the comprehensive project report, detailing the methodologies, processes, and outcomes of the project.
+
+All other files in the repository are initialization or configuration files and should not be considered part of the final project deliverables.
+
 ## Abstract
 
 This project explores the development and comparative evaluation of deep learning models for the classification of American Sign Language (ASL) hand gestures into corresponding alphabetical letters (A-Z) and numerical digits (0-9). The aim is to design and assess the performance of two distinct machine learning approaches: a scratch-built model and a fine-tuned pretrained model. The scratch-built model is developed from the ground up, using custom architectural design and trained exclusively on a curated dataset of 35 ASL gesture classes. In contrast, the fine-tuned model leverages transfer learning by adapting a pretrained model to the same ASL dataset, optimizing its performance for this specific task.
